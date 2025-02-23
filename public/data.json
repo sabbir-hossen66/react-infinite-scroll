@@ -1,0 +1,81 @@
+{
+  "id": 1,
+  "name": "John Doe",
+  "age": 30,
+  "email": "johndoe@example.com",
+  "phone": "+1-123-456-7890",
+  "address": {
+    "street": "123 Main St",
+    "city": "New York",
+    "state": "NY",
+    "zip": "10001"
+  },
+  "company": "Tech Solutions",
+  "position": "Software Engineer",
+  "salary": 85000,
+  "isEmployed": true,
+  "skills": ["JavaScript", "React", "Node.js", "MongoDB"],
+  "hobbies": ["Reading", "Gaming", "Traveling"],
+  "education": {
+    "degree": "Bachelor's in Computer Science",
+    "university": "MIT",
+    "graduationYear": 2015
+  },
+  "experience": [
+    {
+      "company": "ABC Corp",
+      "position": "Frontend Developer",
+      "years": 3
+    },
+    {
+      "company": "XYZ Ltd",
+      "position": "Full Stack Developer",
+      "years": 2
+    }
+  ],
+  "projects": [
+    {
+      "name": "E-commerce Website",
+      "techStack": ["React", "Redux", "Firebase"],
+      "completed": true
+    },
+    {
+      "name": "Inventory Management System",
+      "techStack": ["Vue.js", "Node.js", "MongoDB"],
+      "completed": false
+    }
+  ],
+  "socialMedia": {
+    "linkedin": "https://linkedin.com/in/johndoe",
+    "github": "https://github.com/johndoe"
+  },
+  "languages": ["English", "Spanish", "French"],
+  "married": false,
+  "children": 0,
+  "pets": ["Dog", "Cat"],
+  "car": {
+    "brand": "Tesla",
+    "model": "Model 3",
+    "year": 2022
+  },
+  "favoriteBooks": [
+    {
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt"
+    },
+    {
+      "title": "Clean Code",
+      "author": "Robert C. Martin"
+    }
+  ],
+  "subscription": {
+    "newsletter": true,
+    "proPlan": false
+  },
+  "lastLogin": "2024-02-23T10:15:30Z",
+  "createdAt": "2020-06-15T08:30:00Z",
+  "updatedAt": "2024-02-22T14:45:10Z",
+  "paymentMethods": ["Credit Card", "PayPal"],
+  "wishlist": ["MacBook Pro", "iPhone 15", "Gaming PC"],
+  "notes": "This is a sample JSON file with 50 properties."
+}
