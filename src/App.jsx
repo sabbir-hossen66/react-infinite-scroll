@@ -20,15 +20,9 @@ function App() {
     }
   });
   // console.log('data',data.pages[])
-const articles = data?.pages.reduce((acc, page) => [...acc, ...page.posts], []);
+const articles = data?.pages?.reduce((acc, page) => [...acc, ...page.posts], []) || [];
   console.log('articles', articles)
   
-  // const articles = data?.pages.reduce((acc,page) => {
-  //   return [...acc,page.posts]
-  // }, [])
-  // console.log('mong',articles)
-
-
   return (
     <div>
       <h2>hello react bhai</h2>
